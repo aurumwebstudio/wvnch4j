@@ -17,7 +17,7 @@ const startMusic = async () => {
   if (!music) return;
 
   try {
-    music.volume = 0.275;
+    music.volume = 0.175;
     await music.play();
     audioGate?.classList.add("is-hidden");
     window.removeEventListener("pointerdown", startMusic);
