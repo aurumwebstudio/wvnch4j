@@ -105,6 +105,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(5, var(--icon-size));
   gap: var(--gap);
+  justify-content: center;
   place-items: center;
   width: min(92vw, 540px);
 }
